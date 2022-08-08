@@ -1,11 +1,10 @@
-import { View, Text } from "react-native";
-import { styleProps } from "react-native-web/dist/cjs/modules/forwardedProps";
+import { View, Text, StyleSheet } from "react-native";
 
 import Colors from "../../constants/colors";
 
 function NumberContainer({ children }) {
   return (
-    <View style={styler.container}>
+    <View style={styles.container}>
       <Text style={styles.numberText}>{children}</Text>
     </View>
   );
