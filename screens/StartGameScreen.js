@@ -33,7 +33,9 @@ function StartGameScreen({ onPickNumber }) {
     <View style={styles.rootContainer}>
       <Title>Guessing Game</Title>
       <Card>
-        <InstructionText>Enter a number between 1 and 99.</InstructionText>
+        <InstructionText style={styles.instructionText}>
+          Enter a Number
+        </InstructionText>
         <TextInput
           style={styles.numberInput}
           maxLength={2}
@@ -80,5 +82,8 @@ const styles = StyleSheet.create({
     flex: 1,
     marginTop: 100,
     alignItems: "center",
+  },
+  instructionText: {
+    marginBottom: 12,
   },
 });

@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   buttonInnerContainer: {
-    backgroundColor: Colors.primary500,
+    backgroundColor: Colors.primary400,
     paddingVertical: 8,
     paddingHorizontal: 16,
     elevation: 4,
